@@ -569,3 +569,19 @@ border-radius: .1em;
 .ai-inverse {
   color: #fff;
 }
+
+.container {
+  /* display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr; */
+  /* column-gap: 5px; */
+  display: flex;
+  align-items: center;
+  justify-content: center
+ }
+
+ @media (max-width: 600px) {
+  .container img {
+    display: none;
+  }
+}

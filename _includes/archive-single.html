@@ -33,7 +33,9 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-    
+    <div class='container'>
+
+    <div>
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
@@ -51,6 +53,7 @@
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
+
     
     {% if post.citation and post.paperurl %}
       <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}">{{ post.paperurl }}</a></p>
@@ -59,6 +62,13 @@
     {% elsif post.paperurl %}
       <p class="wordwrap">Download <a href=" {{ post.paperurl }} ">here</a></p>
     {% endif %}
+  </div>
+  {% if post.teaser %}
+    <img src=
+    "{{ post.teaser | prepend: "/images/" | prepend: base_path }}"
+  alt="" width="200px">
+  {% endif %}
+</div>
 
   </article>
 </div>
