@@ -15,8 +15,12 @@ redirect_from:
 
 👔 Prior to the PhD, I was a **Research Associate** at the [University of East Anglia](https://www.uea.ac.uk/) focusing on the use of AI for user identification using keystroke dynamics. In 2017-2018 I was a Software Developer Intern at Boeing Defence UK where I gained experienced in industry leading Research and Development business area.
 
-News
+News/Updates
 ===
-{% for post in site.news reversed %}
+{% assign offs = site.news.size | minus: 3 %}
+{% for post in site.news reversed limit: 3 offset: offs %}
   {% include archive-news.html %}
 {% endfor %}
+<a class="btn btn-primary" data-toggle="collapse" href="{{ base_path }}/news" role="button" aria-expanded="false" aria-controls="collapseExample">
+  See More
+</a>
