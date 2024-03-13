@@ -574,10 +574,15 @@ border-radius: .1em;
   /* display: grid;
   align-items: center; 
   grid-template-columns: 1fr 1fr; */
-  /* column-gap: 5px; */
+  column-gap: 50px;
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: left;
+  width: 100%
+ }
+
+ .container img {
+  margin-left: auto;
  }
 
  @media (max-width: 600px) {

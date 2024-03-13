@@ -21,7 +21,7 @@ repository               : "jonathanpwindle/jonathanpwindle.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile_pic.jpg"
+  avatar           : "profile_pic.jpeg"
   name             : "Jonathan Windle"
   pronouns         : # example: "she/her"  
   bio              : "Generative AI PhD Candidate"
@@ -211,7 +211,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-
+  news:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -246,6 +248,15 @@ defaults:
   - scope:
       path: ""
       type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+# news
+  - scope:
+      path: ""
+      type: news
     values:
       layout: single
       author_profile: true
