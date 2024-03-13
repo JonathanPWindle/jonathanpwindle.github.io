@@ -13,7 +13,7 @@ redirect_from:
 
 📚 I’m currently finishing my PhD Thesis titled Digital Humans: Automatic Character Animation, aiming to submit in April.
 
-👔 Prior to the PhD, I was a **Research Associate** at the [University of East Anglia](https://www.uea.ac.uk/) focusing on the use of AI for user identification using keystroke dynamics. In 2017-2018 I was a Software Developer Intern at Boeing Defence UK where I gained experienced in industry leading Research and Development business area.
+👔 Prior to the PhD, I was a **Research Associate** at the [University of East Anglia](https://www.uea.ac.uk/) focusing on the use of AI for user identification using keystroke dynamics. In 2017-2018 I was a Software Developer Intern at Boeing Defence UK where I gained experienced in an industry leading Research and Development business area.
 
 News/Updates
 ===
