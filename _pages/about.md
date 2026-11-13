@@ -7,13 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-👨🏻‍💻 I’m a **Research Intern** at [Epic Games](https://www.epicgames.com/site/en-US/home) and a final year PhD student at the [University of East Anglia](https://www.uea.ac.uk/)
+👨🏻‍💻 I’m **Dr Jonathan Windle**, a **Research Scientist** at [Epic Games](https://www.epicgames.com/site/en-US/home), based in London.
 
-🔬 My research interests are in **Multimodal Generative AI**, particularly using audio and text for speech-to-gesture!
+🔬 I work on **speech-driven animation using AI**. My work on [EpicADA](/publication/epicada) (SIGGRAPH 2025) ships in Unreal Engine as MetaHuman audio-driven animation.
 
-📚 I have submitted my PhD Thesis titled Digital Humans: Automatic Character Animation and will defend it in December
-
-👔 Prior to the PhD, I was a **Research Associate** at the [University of East Anglia](https://www.uea.ac.uk/) focusing on the use of AI for user identification using keystroke dynamics. In 2017-2018 I was a Software Developer Intern at Boeing Defence UK where I gained experienced in an industry leading Research and Development business area.
+🎓 PhD from the [University of East Anglia](https://www.uea.ac.uk/), on automatic character animation for digital humans.
 
 News/Updates
 ===
