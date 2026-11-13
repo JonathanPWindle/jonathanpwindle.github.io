@@ -6,11 +6,5 @@ main:
   - title: "Talks"
     url: /talks/    
 
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "CV"
-    url: /files/Jonathan_Windle_CV.pdf
-    
   - title: "News"
     url: /news/    

@@ -11,8 +11,8 @@ locale                   : "en-US"
 title                    : "Jonathan Windle / Portfolio"
 title_separator          : "-"
 name                     : &name "Jonathan Windle"
-description              : &description "personal description"
-url                      : https://jonathanpwindle.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "Dr Jonathan Windle — Research Scientist at Epic Games working on AI speech-driven animation"
+url                      : https://jwindle.uk # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jonathanpwindle/jonathanpwindle.github.io"
 
@@ -24,11 +24,11 @@ author:
   avatar           : "profile_pic.jpeg"
   name             : "Jonathan Windle"
   pronouns         : # example: "she/her"  
-  bio              : "Research Intern at Epic Games and Generative AI PhD Candidate"
+  bio              : "Research Scientist at Epic Games, working on AI speech-driven animation"
   location         : "London, United Kingdom"
-  employer         : "University of East Anglia"
+  employer         : "Epic Games"
   uri              : # URL
-  email            : "j.windle@uea.ac.uk" 
+  email            :  
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -56,7 +56,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "jonathanpwindle"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
