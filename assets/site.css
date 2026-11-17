@@ -65,6 +65,9 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--voice); outline
 .signal { margin: 24px 0 0; overflow: hidden; }
 .signal svg { display: block; width: 100%; min-width: 760px; height: auto; }
 @media (max-width: 760px) { .signal svg { margin-left: calc((100% - 760px) / 2); } }
+.hero-anim { aspect-ratio: 1200 / 430; }
+.replay { font: inherit; color: var(--muted); background: none; border: 0; padding: 0; min-height: 24px; cursor: pointer; }
+.replay:hover { color: var(--text); }
 .signal figcaption { display: flex; justify-content: space-between; gap: 16px; margin-top: 12px; font-family: var(--mono); font-size: 13px; color: var(--muted); }
 
 .frame { opacity: var(--o); }
